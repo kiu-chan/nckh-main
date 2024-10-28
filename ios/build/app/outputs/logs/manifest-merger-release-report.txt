@@ -1,0 +1,452 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:5:4-38:19
+MERGED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-34:19
+MERGED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-34:19
+MERGED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-18:19
+MERGED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-18:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/40e209263aad866bfd5319172a1eb9dc/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/40e209263aad866bfd5319172a1eb9dc/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/6d046b6cb413a1e59923f48e4fd054a9/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/6d046b6cb413a1e59923f48e4fd054a9/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b721d8a7cd91ddd87bf9aa5c51e9a4ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b721d8a7cd91ddd87bf9aa5c51e9a4ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/hoangkhanh/.gradle/caches/transforms-3/399d983a52ef8498d1f69bf8d07058ff/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/hoangkhanh/.gradle/caches/transforms-3/399d983a52ef8498d1f69bf8d07058ff/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:6:9-29
+	android:icon
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:9:9-45
+	android:usesCleartextTraffic
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:8:9-44
+	android:name
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:7:9-42
+manifest
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:google_maps_flutter_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-36:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-20:12
+MERGED from [:path_provider_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/40e209263aad866bfd5319172a1eb9dc/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.media:media:1.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/3620ab1ee2f19774f7c42b6aaec2c6cb/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/6d046b6cb413a1e59923f48e4fd054a9/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/hoangkhanh/.gradle/caches/transforms-3/2251a75e3cceee89ffb9fd4e512425a3/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/hoangkhanh/.gradle/caches/transforms-3/78176b00fcf5bac232e0c7de7c14dee3/transformed/jetified-activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/a5f2056fbb12219364889db3b7c9fe57/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/ff119fc4f3ffc58e2368a62fff3e87a4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/ba25f54fa6a462920e92a53fb2b28124/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/70f286e61e406bdb8f6ca9a93154776a/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/f4d9f7da960d4577ad8f929ca6e5b68a/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/065dc5f665104d5a261d8d149ccf0471/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/cfbb55d5f49b0afe092177e644334fde/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0a302146f7f74af4a77313031f86b8a9/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/26bbc4e02154c022ff3a5120ee3ab128/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/c2545d48a94b6ba96f6866547d841c83/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/acc4d9bbff23e750aa1c6ee0e00df521/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hoangkhanh/.gradle/caches/transforms-3/ce1c46b9e2622fcbfabcffc8a3f717c3/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/14acfc59327e1fe745b331c592837320/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1f00851ee4c83eb491e0dfb8e1a95670/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/hoangkhanh/.gradle/caches/transforms-3/ae6d1ef9d21ddf8e0e5cc8fdd6d609ac/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5efd5b7fe75c6af9638964c699da4252/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/f9e9b97af043659f0ad2ca926f747e41/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b721d8a7cd91ddd87bf9aa5c51e9a4ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5a89c246e9d959d7cec5477ceb8b2860/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5214965a70119c319ba05689a779964e/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/hoangkhanh/.gradle/caches/transforms-3/399d983a52ef8498d1f69bf8d07058ff/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hoangkhanh/.gradle/caches/transforms-3/2b1047f5cf13b92abeb6b7cc1113c27b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+	package
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:2:5-31
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:3:4-65
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:3:21-63
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:4:4-64
+MERGED from [:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+MERGED from [:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:4:21-62
+uses-sdk
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+MERGED from [:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/40e209263aad866bfd5319172a1eb9dc/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/40e209263aad866bfd5319172a1eb9dc/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/3620ab1ee2f19774f7c42b6aaec2c6cb/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/3620ab1ee2f19774f7c42b6aaec2c6cb/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/6d046b6cb413a1e59923f48e4fd054a9/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/hoangkhanh/.gradle/caches/transforms-3/6d046b6cb413a1e59923f48e4fd054a9/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/hoangkhanh/.gradle/caches/transforms-3/2251a75e3cceee89ffb9fd4e512425a3/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/hoangkhanh/.gradle/caches/transforms-3/2251a75e3cceee89ffb9fd4e512425a3/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/hoangkhanh/.gradle/caches/transforms-3/78176b00fcf5bac232e0c7de7c14dee3/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/hoangkhanh/.gradle/caches/transforms-3/78176b00fcf5bac232e0c7de7c14dee3/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/a5f2056fbb12219364889db3b7c9fe57/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/a5f2056fbb12219364889db3b7c9fe57/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/ff119fc4f3ffc58e2368a62fff3e87a4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/ff119fc4f3ffc58e2368a62fff3e87a4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/ba25f54fa6a462920e92a53fb2b28124/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/ba25f54fa6a462920e92a53fb2b28124/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/70f286e61e406bdb8f6ca9a93154776a/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/70f286e61e406bdb8f6ca9a93154776a/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/f4d9f7da960d4577ad8f929ca6e5b68a/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/f4d9f7da960d4577ad8f929ca6e5b68a/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/065dc5f665104d5a261d8d149ccf0471/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/065dc5f665104d5a261d8d149ccf0471/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/cfbb55d5f49b0afe092177e644334fde/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/cfbb55d5f49b0afe092177e644334fde/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0a302146f7f74af4a77313031f86b8a9/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0a302146f7f74af4a77313031f86b8a9/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/26bbc4e02154c022ff3a5120ee3ab128/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/26bbc4e02154c022ff3a5120ee3ab128/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/c2545d48a94b6ba96f6866547d841c83/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/c2545d48a94b6ba96f6866547d841c83/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/acc4d9bbff23e750aa1c6ee0e00df521/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/acc4d9bbff23e750aa1c6ee0e00df521/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hoangkhanh/.gradle/caches/transforms-3/ce1c46b9e2622fcbfabcffc8a3f717c3/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hoangkhanh/.gradle/caches/transforms-3/ce1c46b9e2622fcbfabcffc8a3f717c3/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/14acfc59327e1fe745b331c592837320/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/14acfc59327e1fe745b331c592837320/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1f00851ee4c83eb491e0dfb8e1a95670/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1f00851ee4c83eb491e0dfb8e1a95670/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/hoangkhanh/.gradle/caches/transforms-3/ae6d1ef9d21ddf8e0e5cc8fdd6d609ac/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/hoangkhanh/.gradle/caches/transforms-3/ae6d1ef9d21ddf8e0e5cc8fdd6d609ac/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5efd5b7fe75c6af9638964c699da4252/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5efd5b7fe75c6af9638964c699da4252/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/f9e9b97af043659f0ad2ca926f747e41/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/f9e9b97af043659f0ad2ca926f747e41/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b721d8a7cd91ddd87bf9aa5c51e9a4ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b721d8a7cd91ddd87bf9aa5c51e9a4ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5a89c246e9d959d7cec5477ceb8b2860/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5a89c246e9d959d7cec5477ceb8b2860/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5214965a70119c319ba05689a779964e/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/hoangkhanh/.gradle/caches/transforms-3/5214965a70119c319ba05689a779964e/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/hoangkhanh/.gradle/caches/transforms-3/399d983a52ef8498d1f69bf8d07058ff/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/hoangkhanh/.gradle/caches/transforms-3/399d983a52ef8498d1f69bf8d07058ff/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hoangkhanh/.gradle/caches/transforms-3/2b1047f5cf13b92abeb6b7cc1113c27b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hoangkhanh/.gradle/caches/transforms-3/2b1047f5cf13b92abeb6b7cc1113c27b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:10:9-11:73
+	android:value
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:11:16-71
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:10:20-65
+activity#com.example.nckh.MainActivity
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:12:9-32:20
+	android:launchMode
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:14:13-36
+	android:configChanges
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:17:13-163
+	android:theme
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:13:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:24:13-27:17
+	android:resource
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:26:15-52
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:25:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:29:17-68
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:30:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:35:9-37:33
+	android:value
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:37:13-30
+	android:name
+		ADDED from /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:36:13-44
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-74
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-33:19
+	android:enabled
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+	android:exported
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-40
+	android:name
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-28:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-94
+	android:name
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:36
+	android:value
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-33
+	android:name
+		ADDED from [:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-17:56
+	android:enabled
+		ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-35
+	android:exported
+		ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-53
+	android:name
+		ADDED from [:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/hoangkhanh/.gradle/caches/transforms-3/399d983a52ef8498d1f69bf8d07058ff/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/hoangkhanh/.gradle/caches/transforms-3/399d983a52ef8498d1f69bf8d07058ff/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.nckh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.nckh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

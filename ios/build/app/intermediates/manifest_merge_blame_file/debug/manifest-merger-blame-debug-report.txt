@@ -1,0 +1,252 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nckh"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:3:4-65
+15-->/Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:3:21-63
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->/Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:4:4-64
+16-->/Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/android/app/src/main/AndroidManifest.xml:4:21-62
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->[:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
+17-->[:flutter_local_notifications] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+18-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+19-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+19-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <permission
+32-->[androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.nckh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.nckh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+37
+38    <application
+39        android:name="android.app.Application"
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.1] /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/launcher_icon"
+43        android:label="ICTU"
+44        android:usesCleartextTraffic="true" >
+45        <meta-data
+46            android:name="com.google.android.geo.API_KEY"
+47            android:value="AIzaSyDA6-pxzfCwEqq3aNIF1fLUI9rXeus8G3A" />
+48
+49        <activity
+50            android:name="com.example.nckh.MainActivity"
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52            android:exported="true"
+53            android:hardwareAccelerated="true"
+54            android:launchMode="singleTop"
+55            android:theme="@style/LaunchTheme"
+56            android:windowSoftInputMode="adjustResize" >
+57
+58            <!--
+59                 Specifies an Android theme to apply to this Activity as soon as
+60                 the Android process has started. This theme is visible to the user
+61                 while the Flutter UI initializes. After that, this theme continues
+62                 to determine the Window background behind the Flutter UI.
+63            -->
+64            <meta-data
+65                android:name="io.flutter.embedding.android.NormalTheme"
+66                android:resource="@style/NormalTheme" />
+67
+68            <intent-filter>
+69                <action android:name="android.intent.action.MAIN" />
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+79            android:name="flutterEmbedding"
+80            android:value="2" />
+81
+82        <provider
+82-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-19:20
+83            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+83-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-82
+84            android:authorities="com.example.nckh.flutter.image_provider"
+84-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-74
+85            android:exported="false"
+85-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+86            android:grantUriPermissions="true" >
+86-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-47
+87            <meta-data
+87-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:75
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+89                android:resource="@xml/flutter_image_picker_file_paths" />
+89-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-72
+90        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+91        <service
+91-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-33:19
+92            android:name="com.google.android.gms.metadata.ModuleDependencies"
+92-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-78
+93            android:enabled="false"
+93-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+94            android:exported="false" >
+94-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+95            <intent-filter>
+95-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-28:29
+96                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+96-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-94
+96-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-91
+97            </intent-filter>
+98
+99            <meta-data
+99-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:36
+100                android:name="photopicker_activity:0:required"
+100-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-63
+101                android:value="" />
+101-->[:image_picker_android] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-33
+102        </service>
+103        <service
+103-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+104            android:name="com.lyokone.location.FlutterLocationService"
+104-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+105            android:enabled="true"
+105-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+106            android:exported="false"
+106-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+107            android:foregroundServiceType="location" /> <!-- Needs to be explicitly declared on P+ -->
+107-->[:location] /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+108        <uses-library
+108-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+109            android:name="org.apache.http.legacy"
+109-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+110            android:required="false" />
+110-->[com.google.android.gms:play-services-maps:18.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/e9954449cc4153e219dee900fa0b4ff2/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+111
+112        <activity
+112-->[com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+113-->[com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-base:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+116
+117        <meta-data
+117-->[com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+118            android:name="com.google.android.gms.version"
+118-->[com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+119            android:value="@integer/google_play_services_version" />
+119-->[com.google.android.gms:play-services-basement:18.3.0] /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+120
+121        <uses-library
+121-->[androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+122            android:name="androidx.window.extensions"
+122-->[androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+123            android:required="false" />
+123-->[androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+124        <uses-library
+124-->[androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+125            android:name="androidx.window.sidecar"
+125-->[androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+126            android:required="false" />
+126-->[androidx.window:window:1.2.0] /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+127
+128        <provider
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+130            android:authorities="com.example.nckh.androidx-startup"
+130-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+133-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+134                android:value="androidx.startup" />
+134-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+137                android:value="androidx.startup" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+138        </provider>
+139
+140        <receiver
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+141            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+142            android:directBootAware="false"
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+143            android:enabled="true"
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+144            android:exported="true"
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+145            android:permission="android.permission.DUMP" >
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+147                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+150                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+153                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+156                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+157            </intent-filter>
+158        </receiver>
+159    </application>
+160
+161</manifest>

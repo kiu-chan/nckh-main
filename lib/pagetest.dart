@@ -10,7 +10,7 @@ import 'infoforPT.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nckh/infoforPT.dart';
-import 'package:syncfusion_flutter_charts/charts.dart';
+// import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
 
 import 'notification_service.dart';
@@ -22,7 +22,7 @@ class LiveChartWidget extends StatefulWidget {
   State<LiveChartWidget> createState() => _LiveChartWidgetState();
 }
 
-const URI_SERVER = 'http://14.225.205.225:5000';
+const URI_SERVER = 'http://14.225.211.5:5002';
 
 class StreamSocket {
   final _socketResponse = StreamController<int>();
@@ -52,29 +52,26 @@ void connectAndListen() {
   });
 
   //When an event recieved from server, data is added to the stream
-  socket.on('Data2', (data) => streamSocket.addResponse);
-  socket.on('Data2', (data) async {
+  socket.on('from_server', (data) => streamSocket.addResponse);
+  socket.on('from_server', (data) async {
     print('changed to new data $data');
-    tempscore = data;
-    if (data >= 15) {
       HapticFeedback.mediumImpact();
       _notificationService.showNotifications();
-    }
   });
   socket.onDisconnect((_) => print('disconnect'));
 }
 
 class _LiveChartWidgetState extends State<LiveChartWidget> {
   late List<LiveData> chartData;
-  late ChartSeriesController _chartSeriesController;
+  // late ChartSeriesController _chartSeriesController;
   final showtime = DateFormat('yMMMd').format(DateTime.now());
   final user = UserPreferences.getUser();
   @override
   void initState() {
     super.initState();
     connectAndListen();
-    chartData = getChartData();
-    Timer.periodic(const Duration(seconds: 1), updateDataSource);
+    // chartData = getChartData();
+    // Timer.periodic(const Duration(seconds: 1), updateDataSource);
   }
 
   List<LiveData> getChartData() {
@@ -93,12 +90,12 @@ class _LiveChartWidgetState extends State<LiveChartWidget> {
   }
 
   int time = 10;
-  updateDataSource(Timer timer) {
-    chartData.add(LiveData(time++, tempscore));
-    chartData.removeAt(0);
-    _chartSeriesController.updateDataSource(
-        addedDataIndex: chartData.length - 1, removedDataIndex: 0);
-  }
+  // updateDataSource(Timer timer) {
+  //   chartData.add(LiveData(time++, tempscore));
+  //   chartData.removeAt(0);
+  //   _chartSeriesController.updateDataSource(
+  //       addedDataIndex: chartData.length - 1, removedDataIndex: 0);
+  // }
 
   Widget build(BuildContext context) {
     return Scaffold(
@@ -146,40 +143,40 @@ class _LiveChartWidgetState extends State<LiveChartWidget> {
                   ),
                 ),
                 SizedBox(height: 10),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(20)),
-                      color: Colors.white,
-                    ),
-                    child: SfCartesianChart(
-                      primaryXAxis: NumericAxis(
-                        axisLine: AxisLine(color: Colors.black, width: 2.5),
-                        majorGridLines:
-                            MajorGridLines(color: Colors.white, width: 1),
-                        title: AxisTitle(text: 'Thời gian chạy (s)'),
-                        labelStyle:
-                            TextStyle(color: Colors.blueGrey, fontSize: 11),
-                      ),
-                      primaryYAxis: NumericAxis(
-                        axisLine: AxisLine(color: Colors.black, width: 2.5),
-                        opposedPosition: true,
-                      ),
-                      series: [
-                        SplineSeries<LiveData, int>(
-                          onRendererCreated:
-                              (ChartSeriesController controller) {
-                            _chartSeriesController = controller;
-                          },
-                          dataSource: chartData,
-                          xValueMapper: (LiveData data, _) => data.time,
-                          yValueMapper: (LiveData data, _) => data.score,
-                        )
-                      ],
-                    ),
-                  ),
-                ),
+                // Padding(
+                //   padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                //   child: Container(
+                //     decoration: BoxDecoration(
+                //       borderRadius: BorderRadius.all(Radius.circular(20)),
+                //       color: Colors.white,
+                //     ),
+                //     child: SfCartesianChart(
+                //       primaryXAxis: NumericAxis(
+                //         axisLine: AxisLine(color: Colors.black, width: 2.5),
+                //         majorGridLines:
+                //             MajorGridLines(color: Colors.white, width: 1),
+                //         title: AxisTitle(text: 'Thời gian chạy (s)'),
+                //         labelStyle:
+                //             TextStyle(color: Colors.blueGrey, fontSize: 11),
+                //       ),
+                //       primaryYAxis: NumericAxis(
+                //         axisLine: AxisLine(color: Colors.black, width: 2.5),
+                //         opposedPosition: true,
+                //       ),
+                //       series: [
+                //         SplineSeries<LiveData, int>(
+                //           onRendererCreated:
+                //               (ChartSeriesController controller) {
+                //             _chartSeriesController = controller;
+                //           },
+                //           dataSource: chartData,
+                //           xValueMapper: (LiveData data, _) => data.time,
+                //           yValueMapper: (LiveData data, _) => data.score,
+                //         )
+                //       ],
+                //     ),
+                //   ),
+                // ),
               ],
             ),
             SizedBox(
@@ -206,12 +203,12 @@ class _LiveChartWidgetState extends State<LiveChartWidget> {
                       Expanded(
                         child: ListView(
                           children: [
-                            InfoTile(
-                              icon: Icons.ac_unit_outlined,
-                              firstName: 'Nhiệt độ máy ℃',
-                              secondName: 45,
-                              color: Colors.orange,
-                            ),
+                            // InfoTile(
+                            //   icon: Icons.ac_unit_outlined,
+                            //   firstName: 'Nhiệt độ máy ℃',
+                            //   secondName: 45,
+                            //   color: Colors.orange,
+                            // ),
                             InfoTile(
                                 icon: Icons.access_alarm_outlined,
                                 firstName: 'Số lần cảnh báo',

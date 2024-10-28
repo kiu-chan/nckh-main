@@ -24,7 +24,7 @@ class _pageFourState extends State<pageFour> {
   ];
 
   Future refresh() async {
-    final url = Uri.parse('http://14.225.205.225:5000');
+    final url = Uri.parse('http://14.225.211.5:5002');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {

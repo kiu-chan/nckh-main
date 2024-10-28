@@ -1,0 +1,30 @@
+com.lyokone.location-lifecycle-viewmodel-2.7.0-0 /Users/hoangkhanh/.gradle/caches/transforms-3/065dc5f665104d5a261d8d149ccf0471/transformed/lifecycle-viewmodel-2.7.0/res
+com.lyokone.location-jetified-core-ktx-1.13.1-1 /Users/hoangkhanh/.gradle/caches/transforms-3/0a302146f7f74af4a77313031f86b8a9/transformed/jetified-core-ktx-1.13.1/res
+com.lyokone.location-jetified-profileinstaller-1.3.1-2 /Users/hoangkhanh/.gradle/caches/transforms-3/0d7c791da6ae1a363300cf0d81d97587/transformed/jetified-profileinstaller-1.3.1/res
+com.lyokone.location-jetified-play-services-base-18.3.0-3 /Users/hoangkhanh/.gradle/caches/transforms-3/1d6cbb7acc4bd3a7e97e4997e483f46e/transformed/jetified-play-services-base-18.3.0/res
+com.lyokone.location-fragment-1.7.1-4 /Users/hoangkhanh/.gradle/caches/transforms-3/2251a75e3cceee89ffb9fd4e512425a3/transformed/fragment-1.7.1/res
+com.lyokone.location-jetified-annotation-experimental-1.4.0-5 /Users/hoangkhanh/.gradle/caches/transforms-3/2b1047f5cf13b92abeb6b7cc1113c27b/transformed/jetified-annotation-experimental-1.4.0/res
+com.lyokone.location-jetified-window-1.2.0-6 /Users/hoangkhanh/.gradle/caches/transforms-3/498ae2ce139786abe825c34dd348c143/transformed/jetified-window-1.2.0/res
+com.lyokone.location-jetified-core-1.0.0-7 /Users/hoangkhanh/.gradle/caches/transforms-3/5214965a70119c319ba05689a779964e/transformed/jetified-core-1.0.0/res
+com.lyokone.location-core-runtime-2.2.0-8 /Users/hoangkhanh/.gradle/caches/transforms-3/5a89c246e9d959d7cec5477ceb8b2860/transformed/core-runtime-2.2.0/res
+com.lyokone.location-jetified-tracing-1.2.0-9 /Users/hoangkhanh/.gradle/caches/transforms-3/5efd5b7fe75c6af9638964c699da4252/transformed/jetified-tracing-1.2.0/res
+com.lyokone.location-jetified-lifecycle-process-2.7.0-10 /Users/hoangkhanh/.gradle/caches/transforms-3/680a4af3ff81821b7d21717bde95e7cd/transformed/jetified-lifecycle-process-2.7.0/res
+com.lyokone.location-lifecycle-livedata-2.7.0-11 /Users/hoangkhanh/.gradle/caches/transforms-3/70f286e61e406bdb8f6ca9a93154776a/transformed/lifecycle-livedata-2.7.0/res
+com.lyokone.location-core-1.13.1-12 /Users/hoangkhanh/.gradle/caches/transforms-3/75ddd3cb8e9e421678a490aab62cdbef/transformed/core-1.13.1/res
+com.lyokone.location-jetified-window-java-1.2.0-13 /Users/hoangkhanh/.gradle/caches/transforms-3/a5f2056fbb12219364889db3b7c9fe57/transformed/jetified-window-java-1.2.0/res
+com.lyokone.location-lifecycle-runtime-2.7.0-14 /Users/hoangkhanh/.gradle/caches/transforms-3/acc4d9bbff23e750aa1c6ee0e00df521/transformed/lifecycle-runtime-2.7.0/res
+com.lyokone.location-jetified-startup-runtime-1.1.1-15 /Users/hoangkhanh/.gradle/caches/transforms-3/b17638f3a3d7b79a43d7d16162d7e87e/transformed/jetified-startup-runtime-1.1.1/res
+com.lyokone.location-jetified-lifecycle-livedata-core-ktx-2.7.0-16 /Users/hoangkhanh/.gradle/caches/transforms-3/ba25f54fa6a462920e92a53fb2b28124/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+com.lyokone.location-jetified-play-services-basement-18.3.0-17 /Users/hoangkhanh/.gradle/caches/transforms-3/bffb53fc2d26db3fce026a8ade33b0e7/transformed/jetified-play-services-basement-18.3.0/res
+com.lyokone.location-jetified-activity-1.8.1-18 /Users/hoangkhanh/.gradle/caches/transforms-3/c2846b3bae9703652e78ec50a825bba5/transformed/jetified-activity-1.8.1/res
+com.lyokone.location-jetified-savedstate-1.2.1-19 /Users/hoangkhanh/.gradle/caches/transforms-3/ce1c46b9e2622fcbfabcffc8a3f717c3/transformed/jetified-savedstate-1.2.1/res
+com.lyokone.location-jetified-lifecycle-viewmodel-savedstate-2.7.0-20 /Users/hoangkhanh/.gradle/caches/transforms-3/cfbb55d5f49b0afe092177e644334fde/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+com.lyokone.location-lifecycle-livedata-core-2.7.0-21 /Users/hoangkhanh/.gradle/caches/transforms-3/f4d9f7da960d4577ad8f929ca6e5b68a/transformed/lifecycle-livedata-core-2.7.0/res
+com.lyokone.location-main-22 /Users/hoangkhanh/.pub-cache/hosted/pub.dev/location-7.0.1/android/src/main/res
+com.lyokone.location-release-23 /Users/hoangkhanh/.pub-cache/hosted/pub.dev/location-7.0.1/android/src/release/res
+com.lyokone.location-pngs-24 /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/generated/res/pngs/release
+com.lyokone.location-resValues-25 /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/generated/res/resValues/release
+com.lyokone.location-rs-26 /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/generated/res/rs/release
+com.lyokone.location-mergeReleaseResources-27 /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.lyokone.location-mergeReleaseResources-28 /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.lyokone.location-merged_res-29 /Users/hoangkhanh/Documents/Zalo Received Files/nckh-main/build/location/intermediates/merged_res/release

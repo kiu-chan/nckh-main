@@ -21,7 +21,7 @@ class _HomepageState extends State<Homepage> {
   int pageIndex = 0;
   List<Widget> pageList = <Widget>[
     LiveChartWidget(),
-    pageTwo(),
+    // pageTwo(),
     pageFour(),
     pageThree(),
   ];
@@ -37,7 +37,7 @@ class _HomepageState extends State<Homepage> {
         animationDuration: Duration(milliseconds: 200),
         items: [
           Icon(Icons.home, color: Colors.white),
-          Icon(Icons.location_on, color: Colors.white),
+          // Icon(Icons.location_on, color: Colors.white),
           Icon(Icons.article_rounded, color: Colors.white),
           Icon(Icons.account_circle, color: Colors.white),
         ],

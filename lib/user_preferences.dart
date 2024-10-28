@@ -11,11 +11,11 @@ class UserPreferences {
   static const myUser = User(
       imagePath:
           'https://images.unsplash.com/photo-1554151228-14d9def656e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80',
-      name: 'Nguyễn Văn A',
+      name: 'Nhật Quang',
       email: 'nguyenvanA@gmail.com',
       phonenum: '0123456789',
       about:
-          'Địa chỉ nhà: Số 3 Phường Tân Cương\nNhóm máu: A\nCăn cước công dân: 011248562451\nChủ sở hữu: Vinfast Lux 20H-15122');
+          'Địa chỉ nhà: Số 3 Phường Tân Cương\nNhóm máu: A\nCăn cước công dân: 011248562451\nChủ sở hữu: Vinfast Lux 30H-15122');
   static Future init() async =>
       _preferences = await SharedPreferences.getInstance();
 
